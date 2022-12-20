@@ -27,6 +27,7 @@
   border: 1px solid #ffffff;
   box-shadow: 0 0 10px #ffffff;
   text-transform: uppercase;
+  max-width: 90%;
 }
 
 .button-option:hover{
@@ -74,5 +75,11 @@
   .box-text{
     flex-direction: column;
     gap: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 9px;
   }
 }
